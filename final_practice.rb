@@ -7,13 +7,8 @@ end
 greeting
 p "======================="
 
-# What is the return value of your method?
-# "Hey there, good buddy!"
-
-# How many arguments did you pass your method?
-# 0
-
-
+# What is the return value of your method? implicit
+# How many arguments did you pass your method? 0
 
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
@@ -25,29 +20,34 @@ greeting("James")
 
 p "=================="
 
-# What is the return value of your method?
-# "Hey there, James!"
+# What is the return value of your method? implicit
 # How many arguments did you pass your method? 1
 # What data type was your argument(s)? string
 
 
-
-
 #3: Write a method named square that takes in one number, and returns the square of that number
+def square(num)
+  expo = num ** 2
+  p expo
+end
 
+square(8)
+p "================"
 
-
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? explicit
+# How many arguments did you pass your method? 1
+# What data type was your argument(s)? Integer
 
 
 
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
+def greet_person(first, middle, last)
+  p "#{first} #{middle} #{last}! You're in big trouble!"
+end
 
-
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+greet_person("Benjamin", "Zane Taylor", "Randolph")
+# What is the return value of your method? implicit
+# How many arguments did you pass your method? 3
+# What data type was your argument(s)? string
