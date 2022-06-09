@@ -49,3 +49,16 @@ last_login.chr
 # 2: Do some research (either testing out with your own code or Googling) to build an understanding of what the `!` does,
 # when at the end of a method name.
 # Show your understading by providing an example and writing an explanation.
+quote = "this is my quote"
+
+p quote.capitalize
+
+p quote
+
+p quote.capitalize!
+
+p quote
+
+#In the example above, the variable quote is being called by the capitalize and capitalize! methods.
+#The capitalize method calls a version of the variable with the change.
+#What the ! in the capitalize! method does is makes the change to the variable permenant.
