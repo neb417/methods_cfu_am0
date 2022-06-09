@@ -1,18 +1,34 @@
 # Defining Our Own Methods
 # 1: Write a method named greeting that prints out a general greeting to someone
+def greeting
+  p "Hey there, good buddy!"
+end
+
+greeting
+p "======================="
 
 # What is the return value of your method?
+# "Hey there, good buddy!"
+
 # How many arguments did you pass your method?
+# 0
 
 
 
 
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
+def greeting(name)
+  p "Hey there, #{name}!"
+end
 
+greeting("James")
+
+p "=================="
 
 # What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# "Hey there, James!"
+# How many arguments did you pass your method? 1
+# What data type was your argument(s)? string
 
 
 
@@ -35,4 +51,3 @@
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
-
